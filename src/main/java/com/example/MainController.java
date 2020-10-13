@@ -8,6 +8,6 @@ public class MainController {
 
 	@GetMapping("/home")
 	public String hello() {
-		return "Hello Jenkins project 3 after change from Git on AWS";
+		return "Hello Jenkins project 3 after change from Eclipse to Git to AWS";
 	}
 }
